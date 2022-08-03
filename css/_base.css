@@ -1,3 +1,13 @@
 *{
     box-sizing: border-box;
 }
+
+header{
+    border: 2px solid black;
+    text-align: center;
+}
+
+.content-box{
+    margin: 0 auto;
+    background-color: oldlace;
+}
