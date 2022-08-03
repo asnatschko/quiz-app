@@ -1,0 +1,49 @@
+.cardcontent {
+    border: 2px solid black;
+    
+}
+
+.qcard{
+    border: 2px solid black;
+    margin: 20px;
+    height: 200px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.question {
+    text-align: center;
+    padding: 20px;
+}
+
+.showanswer{
+    
+    bottom: 50px;
+    border-radius: 0;
+    padding: 10px;
+    position: absolute;
+    cursor: pointer;
+    
+}
+
+.cardtags{
+    bottom: 5px;
+    left: 5px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+                
+}
+
+.card__tag{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: #ced4da;
+    padding: 3px;
+    }
