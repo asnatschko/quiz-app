@@ -14,11 +14,13 @@ header{
     background-color: oldlace;
     width: 100%;
 }
-
-.footer{
-    position: fixed;
-    border: 2px solid black;
+footer{
     background-color: orange;
+    border: 2px solid black;
+}
+
+.navbar{
+      
 }
 
 /* Resets and basic setup*/
