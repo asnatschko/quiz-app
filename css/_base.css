@@ -6,12 +6,20 @@
 
 header{
     border: 2px solid black;
+    border-radius: 5px;
     text-align: center;
+    background-color: #225560;
+}
+
+h1{
+  color: pink;
+  font-family: 'Mouse Memoirs';
+  font-size: 54px;
 }
 
 .content-box{
     margin: 0 auto;
-    background-color: oldlace;
+    background-color: #EDF060;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr;
@@ -19,8 +27,9 @@ header{
     }
 
 footer{
-    background-color: orange;
+  background-color: #7E9181;
     border: 2px solid black;
+    border-radius: 5px;
                 
 }
 
@@ -28,6 +37,7 @@ footer{
   display:flex;
   justify-content: space-evenly;
   padding: 15px;
+  cursor: pointer;
   }
 
 
