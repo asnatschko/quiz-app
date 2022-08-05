@@ -1,31 +1,48 @@
 .cardcontent {
     border: 2px solid black;
+    border-radius: 5px;
     
 }
 
 .qcard{
     border: 2px solid black;
-    margin: 20px;
+    margin: 30px;
     height: 200px;
+    border-radius: 5px;
     position: relative;
     display: flex;
     justify-content: center;
+    background-color: #F0803C;
+  
     
-    
+}
+
+.bookmark-icon{
+    position: absolute;
+    top: -25px;
+    right: 0px;
+}
+
+.bookmark-icon:hover{
+    cursor: pointer;
+    transform: scale(1.2);
 }
 
 .question {
     text-align: center;
     padding: 20px;
+    font-family: 'Mouse Memoirs';
+    font-size: 22px;
 }
 
 .showanswer{
     
     bottom: 50px;
-    border-radius: 0;
+    border-radius: 10px;
     padding: 10px;
     position: absolute;
     cursor: pointer;
+    background-color: aqua;
     
 }
 
