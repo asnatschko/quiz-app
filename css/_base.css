@@ -37,7 +37,7 @@ footer{
 .navbar{
   display:flex;
   justify-content: space-evenly;
-  padding: 15px;
+  padding: 35px;
   cursor: pointer;
   }
 
