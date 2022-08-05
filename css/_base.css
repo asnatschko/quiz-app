@@ -13,15 +13,23 @@ header{
     margin: 0 auto;
     background-color: oldlace;
     width: 100%;
-}
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+    }
+
 footer{
     background-color: orange;
     border: 2px solid black;
+    
+            
 }
 
 .navbar{
-      
+  display:flex;
+  justify-content: space-evenly;
 }
+
 
 /* Resets and basic setup*/
 
