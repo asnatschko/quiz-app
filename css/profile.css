@@ -1,0 +1,28 @@
+.profile{
+    display: grid;
+    grid-template-columns: repeat(2, [col] 1fr);
+    grid-template-rows: repeat(auto,[row] 1fr);
+    padding: 20px;
+    gap: 15px;
+
+}
+
+    .picture1{
+        justify-self: center;
+    }
+
+    .name2{
+        align-self: center;
+        font-family: mouse Memoirs;
+        font-size: 26px;
+    }
+
+    .aboutme3 {
+        padding: 15px;
+        grid-column: col 1 / col 3;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 20px;
+        border: 2px solid black;
+        border-radius: 5px;
+
+    }
