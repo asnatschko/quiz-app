@@ -1,8 +1,9 @@
+
 .profile{
     display: grid;
     grid-template-columns: repeat(2, [col] 1fr);
     grid-template-rows: repeat(auto,[row] 1fr);
-    padding: 20px;
+    padding-top: 150px;
     gap: 15px;
 
 }
