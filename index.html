@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
+    <script src="./index.js" type="module" defer></script>
+    
+    
+
     <title>Quiz App</title>
     </head>
     <body>
@@ -14,37 +18,40 @@
             <div class="content-box">
             
                 <main>
-                    <div class="cardcontent">
-                        <section class="qcard">
-                            <div class="bookmark-icon">
-                                <img src="./css/Assets/3643731-bookmark-favorite-rate-rating-star_113418.png" width="50px" height="50px" alt="Bookmark">
-                            </div>
-                            <p class="question">What property flips the axes in flexbox?</p>
-                            <button class="showanswer">Show Answer</button>
+                    <div class="cardcontent" data-js="cardcontent">
+                        <section class="qcard" data-js="qcard">
+                            <button class="q_bookmark" data-js="bookmark">
+                                <img data-js="bimg" src="./css/Assets/select.png" width="50" height="50" alt="Bookmark">
+                            </button>
+                            <p class="question">What is the capital of Great Britain?</p>
+                            <button class="showanswer" data-js="showanswer">Show Answer</button>
+                            <p class="answer hidden" data-js="answer" >London</p>
                             <div class="cardtags">
                                 <a class="card__tag" href="#html">#html</a>
                                 <a class="card__tag" href="#flexbox">#flexbox</a>
                                 <a class="card__tag" href="#css">#css</a>    
                             </div>
                         </section>
-                        <section class="qcard">
-                            <div class="bookmark-icon">
-                                <img src="./css/Assets/3643731-bookmark-favorite-rate-rating-star_113418.png" width="50px" height="50px" alt="Bookmark">
-                            </div>
-                            <p class="question">Lorem Ipsum dolor sit</p>
-                            <button class="showanswer">Show Answer</button>
+                        <section class="qcard" data-js="qcard">
+                            <button class="q_bookmark" data-js="bookmark">
+                                <img data-js="bimg" src="./css/Assets/select.png" width="50" height="50" alt="Bookmark">
+                            </button>
+                            <p class="question">How many colors has a rainbow?</p>
+                            <button class="showanswer" data-js="showanswer">Show Answer</button>
+                            <p class="answer hidden" data-js="answer">7</p>
                             <div class="cardtags">
                                 <a class="card__tag" href="#html">#lorem</a>
                                 <a class="card__tag" href="#flexbox">#ipsum</a>
                                 <a class="card__tag" href="#css">#dolor</a>    
                             </div>
                         </section>
-                        <section class="qcard">
-                            <div class="bookmark-icon">
-                                <img src="./css/Assets/3643731-bookmark-favorite-rate-rating-star_113418.png" width="50px" height="50px" alt="Bookmark">
-                            </div>
-                            <p class="question">Lorem Ipsum dolor sit</p>
-                            <button class="showanswer">Show Answer</button>
+                        <section class="qcard" data-js="qcard">
+                            <button class="q_bookmark" data-js="bookmark">
+                                <img data-js="bimg" src="./css/Assets/select.png" width="50" height="50" alt="Bookmark">
+                            </button>
+                            <p class="question">How many colors has a rainbow?</p>
+                            <button class="showanswer" data-js="showanswer">Show Answer</button>
+                            <p class="answer hidden" data-js="answer">7</p>
                             <div class="cardtags">
                                 <a class="card__tag" href="#html">#lorem</a>
                                 <a class="card__tag" href="#flexbox">#ipsum</a>
@@ -56,7 +63,7 @@
                 <footer>
                     <nav class="navbar">
                         <a class="active" href="./index.html"><img src="./css/Assets/home_circle_icon_137496.png" title="Home" alt="Home" width="50px" height="50px"></a>
-                        <a href="./bookmarkpage.html"><img src="./css/Assets/3643731-bookmark-favorite-rate-rating-star_113418.png" title="Bookmark" alt="Bookmark" width="50px" height="50px"></a>
+                        <a href="./bookmarkpage.html"><img src="./css/Assets/select.png" title="Bookmark" alt="Bookmark" width="50px" height="50px"></a>
                         <a href="./profile.html"><img src="./css/Assets/account_avatar_face_man_people_profile_user_icon_123197.png" title="Profile" alt="Profile" width="50px" height="50px"></a>
                     </nav>
                 </footer>

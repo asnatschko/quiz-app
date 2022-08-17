@@ -17,22 +17,24 @@
     
 }
 
-.bookmark-icon{
+.q_bookmark{
     position: absolute;
     top: -25px;
     right: 0px;
+    
 }
 
-.bookmark-select-icon{
+.bookmarkSelect{
     position: absolute;
     left: 0px;
     top: -25px;
 }
 
-.bookmark-icon:hover{
+/*.bookmark:hover{
     cursor: pointer;
     transform: scale(1.2);
 }
+*/
 
 .question {
     text-align: center;
@@ -49,6 +51,18 @@
     position: absolute;
     cursor: pointer;
     background-color: aqua;
+    
+}
+
+.answer{
+    bottom: -10px;
+    text-align: center;
+    position: absolute;
+    background-color: aliceblue;
+    border: 2px dotted;
+    font-style: italic;
+    font-weight: bold;
+    padding: 5px;
     
 }
 

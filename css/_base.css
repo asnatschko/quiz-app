@@ -65,6 +65,10 @@ a.active{
   background-color: orange;
 }
 
+.hidden {
+  display: none;
+}
+
 
   /*.menu_footer  {
     background-color: #fdce2f;
