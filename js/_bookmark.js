@@ -1,44 +1,15 @@
-export default function toggleBookmark(){
+
+export default function toggleBookmark() {
     const bookmarks = document.querySelectorAll('[data-js="bookmark"]');
-    bookmarks.forEach((bookmark)=>{
-        //was soll jetzt jedes Element einzeln machen: hier jeder bookmark-Button
-    
+    bookmarks.forEach((bookmark) => {
+        let saved = false;
+        //const bookmark = card.querySelector('[data-js="bookmark"]');
+        const bimg = bookmark.querySelector('[data-js="bimg"]');
         bookmark.addEventListener('click', () => {
-        bookmark.classList.toggle('hidden');
-    });
+            saved = !saved;
+            bimg.src = saved ? "./css/Assets/select.png" : "./css/Assets/unselect.png";
+        });
     });
 }
 
 
-// export default function toggleBookmark() {
-
-
-// function toggleBookmark1() {
-//     const bookmark = document.querySelector('[data-js="bookmark1"]');
-//     const bimg = document.querySelector('[data-js="bimg1"]');
-//     bookmark.addEventListener('click', () => {
-//         bimg.classList.toggle('hidden');
-//     });
-// }
-
-// function toggleBookmark2() {
-//     const bookmark = document.querySelector('[data-js="bookmark2"]');
-//     const bimg = document.querySelector('[data-js="bimg2"]');
-//     bookmark.addEventListener('click', () => {
-//         bimg.classList.toggle('hidden');
-//     });
-// }
-
-// function toggleBookmark3() {
-//     const bookmark = document.querySelector('[data-js="bookmark3"]');
-//     const bimg = document.querySelector('[data-js="bimg3"]');
-//     bookmark.addEventListener('click', () => {
-//         bimg.classList.toggle('hidden');
-//     });
-// }
-// toggleBookmark1();
-// toggleBookmark2();
-// toggleBookmark3();
-// }
-
-// export { toggleBookmark1, toggleBookmark2, toggleBookmark3 }
