@@ -12,6 +12,7 @@
     <title>Quiz App</title>
     </head>
     <body>
+        <div id="indexPage">
         <header>
             <h1>Quiz App</h1>
         </header>
@@ -21,7 +22,7 @@
                     <div class="cardcontent" data-js="cardcontent">
                         <section class="qcard" data-js="qcard">
                             <button class="q_bookmark" data-js="bookmark">
-                                <img data-js="bimg" src="./css/Assets/unselect.png" width="50" height="50" alt="Bookmark">
+                                <img data-js="bimg" src="./css/Assets/unselect.png" width="30" height="30" alt="Bookmark">
                             </button>
                             <p class="question">What is the capital of Great Britain?</p>
                             <button class="showanswer" data-js="showanswer">Show Answer</button>
@@ -34,7 +35,7 @@
                         </section>
                         <section class="qcard" data-js="qcard">
                             <button class="q_bookmark" data-js="bookmark">
-                                <img data-js="bimg" src="./css/Assets/unselect.png" width="50" height="50" alt="Bookmark">
+                                <img data-js="bimg" src="./css/Assets/unselect.png" width="30" height="30" alt="Bookmark">
                             </button>
                             <p class="question">How many colors has a rainbow?</p>
                             <button class="showanswer" data-js="showanswer">Show Answer</button>
@@ -47,11 +48,11 @@
                         </section>
                         <section class="qcard" data-js="qcard">
                             <button class="q_bookmark" data-js="bookmark">
-                                <img data-js="bimg" src="./css/Assets/unselect.png" width="50" height="50" alt="Bookmark">
+                                <img data-js="bimg" src="./css/Assets/unselect.png" width="30" height="30" alt="Bookmark">
                             </button>
-                            <p class="question">How many colors has a rainbow?</p>
+                            <p class="question">How big is the population of the planet earth?</p>
                             <button class="showanswer" data-js="showanswer">Show Answer</button>
-                            <p class="answer hidden" data-js="answer">7</p>
+                            <p class="answer hidden" data-js="answer">7,753 billions</p>
                             <div class="cardtags">
                                 <a class="card__tag" href="#html">#lorem</a>
                                 <a class="card__tag" href="#flexbox">#ipsum</a>
@@ -59,14 +60,68 @@
                             </div>
                         </section>
                     </div>
-                </main>
-                <footer>
-                    <nav class="navbar">
-                        <a class="active" href="./index.html"><img src="./css/Assets/home_circle_icon_137496.png" title="Home" alt="Home" width="50px" height="50px"></a>
-                        <a href="./bookmarkpage.html"><img src="./css/Assets/select.png" title="Bookmark" alt="Bookmark" width="50px" height="50px"></a>
-                        <a href="./profile.html"><img src="./css/Assets/account_avatar_face_man_people_profile_user_icon_123197.png" title="Profile" alt="Profile" width="50px" height="50px"></a>
-                    </nav>
-                </footer>
+</main>
             </div>
+            </div>
+
+                    <div id="bookmarkPage">
+                        <header>
+                            <h1>Bookmarks</h1>
+                        </header>
+                        <main class="content-box">
+                            <div class="cardcontent">
+                                <section class="qcard">
+                                    <button class="bookmarkSelect">
+                                        <img src="./css/Assets/select.png" width="30" height="30" alt="Bookmark">
+                                    </button>
+                                    <p class="question">What property flips the axes in flexbox?</p>
+                                    <button class="showanswer">Show Answer</button>
+                                    <div class="cardtags">
+                                        <a class="card__tag" href="#html">#html</a>
+                                        <a class="card__tag" href="#flexbox">#flexbox</a>
+                                        <a class="card__tag" href="#css">#css</a>    
+                                    </div>
+                                </section>
+                                <section class="qcard">
+                                    <button class="bookmarkSelect">
+                                        <img src="./css/Assets/select.png" width="30" height="30" alt="Bookmark">
+                                    </button>
+                                    <p class="question">Lorem Ipsum dolor sit</p>
+                                    <button class="showanswer">Show Answer</button>
+                                    <div class="cardtags">
+                                        <a class="card__tag" href="#html">#lorem</a>
+                                        <a class="card__tag" href="#flexbox">#ipsum</a>
+                                        <a class="card__tag" href="#css">#dolor</a>    
+                                    </div>
+                                </section>
+                                <section class="qcard">
+                                    <button class="bookmarkSelect">
+                                        <img src="./css/Assets/select.png" width="30" height="30" alt="Bookmark">
+                                    </button>
+                                    <p class="question">Lorem Ipsum dolor sit</p>
+                                    <button class="showanswer">Show Answer</button>
+                                    <div class="cardtags">
+                                        <a class="card__tag" href="#html">#lorem</a>
+                                        <a class="card__tag" href="#flexbox">#ipsum</a>
+                                        <a class="card__tag" href="#css">#dolor</a>    
+                                    </div>
+                                </section>
+                            </div>
+
+
+                </main>
+            </div>
+
+            <footer>
+                <nav class="navbar">
+                    <a class="active" href="./index.html" id="indexPageButton">
+                        <img src="./css/Assets/home_circle_icon_137496.png" title="Home" alt="Home" width="50px" height="50px">
+                    </a>
+                    <a href="./bookmarkpage.html" id="bookmarkPageButton">
+                        <img src="./css/Assets/select.png" title="Bookmark" alt="Bookmark" width="50px" height="50px">
+                    </a>
+                    <a href="./profile.html"><img src="./css/Assets/account_avatar_face_man_people_profile_user_icon_123197.png" title="Profile" alt="Profile" width="50px" height="50px"></a>
+                </nav>
+            </footer>
     </body>
 </html> 
